@@ -1125,25 +1125,50 @@ footer {
   :root {
     --section-padding: 60px;
   }
-  
+
   .container {
     padding: 0 1.5rem;
   }
-  
+
   .hero {
-    padding-top: 100px;
+    padding-top: 90px;
   }
-  
-  .hero-proof {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5rem;
+
+  .hero-badge {
+    margin-bottom: 1.25rem;
   }
-  
-  .hero-proof-divider {
+
+  .hero-sub {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero-buttons {
+    margin-bottom: 2rem;
+  }
+
+  .hero-visual {
     display: none;
   }
-  
+
+  .hero-proof {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .hero-proof-number {
+    font-size: 1rem;
+  }
+
+  .hero-proof-text {
+    font-size: 0.75rem;
+  }
+
+  .hero-proof-divider {
+    height: 30px;
+  }
+
   .services-grid,
   .problems-grid,
   .industries-grid {
