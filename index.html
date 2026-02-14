@@ -37,23 +37,14 @@
     </a>
     <ul class="nav-links" id="navLinks">
       <li><a href="#services">Services</a></li>
-      <li><a href="#process" onclick="closeMobileMenu()">How It Works</a></li>
-      <li><a href="#industries" onclick="closeMobileMenu()">Industries</a></li>
-      <li><a href="#pricing" onclick="closeMobileMenu()">Pricing</a></li>
-      <li><a href="#about" onclick="closeMobileMenu()">About</a></li>
-      <li><a href="#contact" class="nav-cta" onclick="closeMobileMenu()">Free Consultation →</a></li>
+      <li><a href="#process">How It Works</a></li>
+      <li><a href="#industries">Industries</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact" class="nav-cta">Free Consultation →</a></li>
     </ul>
     <button class="mobile-toggle" onclick="document.getElementById('navLinks').classList.toggle('open')" aria-label="Menu">
       <span></span><span></span><span></span>
-    </button>
-    <script>
-      function closeMobileMenu() {
-        var navLinks = document.getElementById('navLinks');
-        if (window.innerWidth <= 768) {
-          navLinks.classList.remove('open');
-        }
-      }
-    </script>
     </button>
   </div>
 </nav>
@@ -114,8 +105,8 @@
           <div class="workflow-step">
             <div class="workflow-icon"><span class="material-symbols-outlined">notifications</span></div>
             <div class="workflow-text">
-              <strong>Reminder Sequence</strong>
-              <span>48hr, 24hr, and 2hr reminders</span>
+              <strong>Smart Reminder Sequence</strong>
+              <span>48hr, 24hr, 2hr reminders with easy cancel/reschedule links</span>
             </div>
           </div>
           <div class="workflow-connector"></div>
@@ -130,8 +121,8 @@
         <div class="hero-float">
           <div class="hero-float-icon"><span class="material-symbols-outlined">schedule</span></div>
           <div>
-            <div class="hero-float-text">5-10 hours saved weekly</div>
-            <div class="hero-float-sub">Typical automation outcome</div>
+            <div class="hero-float-text">8-10 hours saved weekly</div>
+            <div class="hero-float-sub">Significant reduction in no-shows</div>
           </div>
         </div>
       </div>
@@ -225,7 +216,7 @@
 <section class="process" id="process">
   <div class="container">
     <div class="section-header fade-up">
-      <span class="section-label">How We Work Together</span>
+      <span class="section-label">How I Work With You</span>
       <h2>Straightforward process, clear timelines</h2>
       <p>No mystery, no open-ended projects. Here's what to expect.</p>
     </div>
@@ -258,9 +249,9 @@
 <section class="industries" id="industries">
   <div class="container">
     <div class="section-header fade-up">
-      <span class="section-label">Who We Help</span>
+      <span class="section-label">Who I Help</span>
       <h2>Built for the businesses that power Lethbridge</h2>
-      <p>We know the industries that drive our community — and we've built automation solutions specific to each one.</p>
+      <p>I know the industries that drive our community — and I've built automation solutions specific to each one.</p>
     </div>
     <div class="industries-grid">
       <div class="industry-card fade-up">
@@ -414,15 +405,15 @@
       <div class="pricing-card fade-up">
         <div class="pricing-head">
           <div class="pricing-name">Ongoing Support</div>
-          <p class="pricing-desc">Optional monthly maintenance, updates, and optimization.</p>
-          <div class="pricing-amount">$400–600<span>/mo</span></div>
+          <p class="pricing-desc">Optional month-to-month support after launch.</p>
+          <div class="pricing-amount">Flexible</div>
         </div>
         <div class="pricing-body">
           <ul class="pricing-features">
-            <li><span class="pricing-check">✔</span> System monitoring</li>
-            <li><span class="pricing-check">✔</span> Adjustments as needed</li>
-            <li><span class="pricing-check">✔</span> New automations</li>
-            <li><span class="pricing-check">✔</span> Month-to-month (no contract)</li>
+            <li><span class="pricing-check">✔</span> <strong>Basic Monitoring:</strong> $150-200/mo</li>
+            <li><span class="pricing-check">✔</span> <strong>Active Development:</strong> $400-500/mo</li>
+            <li><span class="pricing-check">✔</span> <strong>On-Demand:</strong> $100/hr (no retainer)</li>
+            <li style="margin-top: 1rem; font-style: italic; color: var(--gray-600);">Recommended approach: Start with Basic monitoring, adjust based on your needs.</li>
           </ul>
           <a href="#contact" class="btn btn-secondary">Learn More</a>
         </div>
@@ -436,28 +427,7 @@
   <div class="container">
     <div class="about-grid">
       <div class="about-visual fade-up">
-        <img src="images/john-waypoint-automation.png" alt="John - Waypoint Automation" style="max-width:180px; border-radius:16px; margin-bottom:1.5rem; box-shadow:0 4px 24px rgba(0,0,0,0.08);">
-        <div class="about-logo-large">
-          <svg width="240" height="64" viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
-            <g transform="translate(36, 40)">
-              <polygon points="0,-28 6,-6 -6,-6" fill="#FFFFFF"/>
-              <polygon points="28,0 6,5 6,-5" fill="#D4A843"/>
-              <polygon points="0,20 5,6 -5,6" fill="#FFFFFF" opacity="0.3"/>
-              <polygon points="-20,0 -6,5 -6,-5" fill="#FFFFFF" opacity="0.3"/>
-              <circle cx="0" cy="0" r="4" fill="#D4A843"/>
-            </g>
-            <g>
-              <path d="M78.89,16.00 L84.30,16.00 L88.08,31.98 L91.83,16.00 L97.27,16.00 L101.02,31.98 L104.80,16.00 L110.16,16.00 L105.00,38.00 L98.50,38.00 L94.53,21.28 L90.59,38.00 L84.09,38.00 L78.89,16.00 Z" fill="#FFFFFF"/>
-              <path d="M132.03,34.00 L123.20,34.00 L121.81,38.00 L116.14,38.00 L124.25,16.00 L130.97,16.00 L139.08,38.00 L133.41,38.00 L132.03,34.00 Z M124.61,30.00 L130.61,30.00 L127.61,21.19 L124.61,30.00 Z" fill="#FFFFFF"/>
-              <path d="M143.70,16.00 L149.88,16.00 L154.86,23.84 L159.84,16.00 L166.02,16.00 L157.69,28.73 L157.69,38.00 L152.05,38.00 L152.05,28.73 L143.70,16.00 Z" fill="#FFFFFF"/>
-              <path d="M173.75,16.00 L183.11,16.00 Q187.28,16.00 189.52,17.81 Q191.75,19.62 191.75,23.00 Q191.75,26.36 189.52,28.18 Q187.28,30.00 183.11,30.00 L179.39,30.00 L179.39,38.00 L173.75,38.00 L173.75,16.00 Z M179.39,20.00 L179.39,26.00 L182.52,26.00 Q184.16,26.00 185.05,25.22 Q185.94,24.44 185.94,23.00 Q185.94,21.55 185.05,20.77 Q184.16,20.00 182.52,20.00 L179.39,20.00 Z" fill="#FFFFFF"/>
-              <path d="M210.75,20.00 Q208.17,20.00 206.75,21.84 Q205.33,23.67 205.33,27.00 Q205.33,30.33 206.75,32.16 Q208.17,34.00 210.75,34.00 Q213.33,34.00 214.75,32.16 Q216.17,30.33 216.17,27.00 Q216.17,23.67 214.75,21.84 Q213.33,20.00 210.75,20.00 Z M210.75,16.00 Q216.03,16.00 219.02,18.93 Q222.00,21.86 222.00,27.00 Q222.00,32.16 219.02,35.08 Q216.03,38.00 210.75,38.00 Q205.48,38.00 202.49,35.08 Q199.50,32.16 199.50,27.00 Q199.50,21.86 202.49,18.93 Q205.48,16.00 210.75,16.00 Z" fill="#FFFFFF"/>
-              <path d="M231.75,16.00 L237.39,16.00 L237.39,38.00 L231.75,38.00 L231.75,16.00 Z" fill="#FFFFFF"/>
-              <path d="M247.75,16.00 L254.05,16.00 L262.00,31.09 L262.00,16.00 L267.36,16.00 L267.36,38.00 L261.06,38.00 L253.09,22.91 L253.09,38.00 L247.75,38.00 L247.75,16.00 Z" fill="#FFFFFF"/>
-              <path d="M275.14,16.00 L295.30,16.00 L295.30,20.00 L288.05,20.00 L288.05,38.00 L282.41,38.00 L282.41,20.00 L275.14,20.00 L275.14,16.00 Z" fill="#FFFFFF"/>
-            </g>
-          </svg>
-        </div>
+        <img src="images/john-waypoint-automation.png" alt="John from Waypoint Automation" style="width: 100%; border-radius: 1rem;">
         <div class="about-tagline">Automation done right</div>
       </div>
       <div class="about-content fade-up">
@@ -493,20 +463,20 @@
 <section class="different" id="different">
   <div class="container">
     <div class="section-header fade-up">
-      <span class="section-label">How We're Different</span>
+      <span class="section-label">How I'm Different</span>
       <h2>Honest implementation over clever sales</h2>
       <p>These are the principles that guide how I work with clients.</p>
     </div>
     <div class="services-grid">
       <div class="service-card fade-up">
         <div class="service-icon"><span class="material-symbols-outlined">visibility</span></div>
-        <h3>We Explain What's Happening</h3>
+        <h3>I Explain What's Happening</h3>
         <p>No black boxes. I'll show you what the AI is actually doing and why. You'll understand the systems you're paying for.</p>
       </div>
       <div class="service-card fade-up">
         <div class="service-icon"><span class="material-symbols-outlined">key</span></div>
         <h3>You Own Everything</h3>
-        <p>No vendor lock-in. If you decide to stop working with me, you keep everything we built. Your data, your systems, your control.</p>
+        <p>No vendor lock-in. If you decide to stop working with me, you keep everything I built. Your data, your systems, your control.</p>
       </div>
       <div class="service-card fade-up">
         <div class="service-icon"><span class="material-symbols-outlined">cancel</span></div>
@@ -521,11 +491,11 @@
       <div class="service-card fade-up">
         <div class="service-icon"><span class="material-symbols-outlined">groups</span></div>
         <h3>Human Judgment Stays Central</h3>
-        <p>We automate the repetitive stuff, not the thinking. Your expertise and relationships remain the core of your business.</p>
+        <p>I automate the repetitive stuff, not the thinking. Your expertise and relationships remain the core of your business.</p>
       </div>
       <div class="service-card fade-up">
         <div class="service-icon"><span class="material-symbols-outlined">support_agent</span></div>
-        <h3>Actually Local Support</h3>
+        <h3>Actual Local Support</h3>
         <p>Not a 1-800 number or email ticketing system. You're working with me directly, and I'm here in Lethbridge.</p>
       </div>
     </div>
@@ -565,7 +535,7 @@
           <span class="faq-toggle">+</span>
         </button>
         <div class="faq-answer">
-          <div class="faq-answer-inner">Simple automations: usually a few days to a week. More complex integrations: 1-3 weeks depending on how many systems need to connect. I'll give you a clear timeline in our initial conversation.</div>
+          <div class="faq-answer-inner">Simple automations: usually a few days to a week. More complex integrations: 1-3 weeks depending on how many systems need to connect. I'll give you a clear timeline in the initial conversation.</div>
         </div>
       </div>
       <div class="faq-item">
@@ -574,7 +544,7 @@
           <span class="faq-toggle">+</span>
         </button>
         <div class="faq-answer">
-          <div class="faq-answer-inner">Every project includes testing before it goes live and a support period afterward. We refine it until it works for your actual workflow. If something fundamental isn't working, I'll tell you honestly and we'll figure out a different approach.</div>
+          <div class="faq-answer-inner">Every project includes testing before it goes live and a support period afterward. I refine it until it works for your actual workflow. If something fundamental isn't working, I'll tell you honestly and we'll figure out a different approach.</div>
         </div>
       </div>
       <div class="faq-item">
@@ -607,8 +577,8 @@
       <h2>See if automation makes sense for your business</h2>
       <p>30-minute conversation about where you're spending time on repetitive tasks and whether automation could help. No pressure, no sales pitch — just an honest assessment.</p>
       <div class="cta-buttons">
-        <a href="mailto:hello@waypoint.ca" class="btn btn-primary">Email to Get Started</a>
-        <a href="tel:+403-915-1281" class="btn btn-ghost">Or Call</a>
+        <a href="mailto:info@waypointautomation.ca" class="btn btn-primary">Email to Get Started</a>
+        <a href="tel:+1-403-915-1281" class="btn btn-ghost">Or Call: 403-915-1281</a>
       </div>
       <p class="cta-note"><span class="material-symbols-outlined" style="font-size: 16px; vertical-align: middle;">location_on</span> Based in Lethbridge, serving Southern Alberta</p>
     </div>
@@ -662,11 +632,27 @@
       <div class="footer-col">
         <h4>Connect</h4>
         <ul>
-          <li><a href="/cdn-cgi/l/email-protection#4b232e2727240b3c2a323b2422253f282425383e273f22252c65282a">Email</a></li>
+          <li><a href="mailto:info@waypointautomation.ca">Email</a></li>
           <li><a href="#">LinkedIn</a></li>
           <li><a href="#">Google Business</a></li>
           <li><a href="#contact">Book a Call</a></li>
         </ul>
       </div>
     </div>
-    <div cla
+    <div style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 2rem; text-align: center;">
+      <p style="font-size: 0.875rem; color: rgba(255,255,255,0.5); margin: 0;">&copy; 2026 Waypoint Automation. Based in Lethbridge, Alberta.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+function toggleFaq(btn) {
+  const item = btn.parentElement;
+  const isActive = item.classList.contains('active');
+  document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+  if (!isActive) item.classList.add('active');
+}
+</script>
+
+</body>
+</html>
