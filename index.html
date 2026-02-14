@@ -37,14 +37,23 @@
     </a>
     <ul class="nav-links" id="navLinks">
       <li><a href="#services">Services</a></li>
-      <li><a href="#process">How It Works</a></li>
-      <li><a href="#industries">Industries</a></li>
-      <li><a href="#pricing">Pricing</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact" class="nav-cta">Free Consultation →</a></li>
+      <li><a href="#process" onclick="closeMobileMenu()">How It Works</a></li>
+      <li><a href="#industries" onclick="closeMobileMenu()">Industries</a></li>
+      <li><a href="#pricing" onclick="closeMobileMenu()">Pricing</a></li>
+      <li><a href="#about" onclick="closeMobileMenu()">About</a></li>
+      <li><a href="#contact" class="nav-cta" onclick="closeMobileMenu()">Free Consultation →</a></li>
     </ul>
     <button class="mobile-toggle" onclick="document.getElementById('navLinks').classList.toggle('open')" aria-label="Menu">
       <span></span><span></span><span></span>
+    </button>
+    <script>
+      function closeMobileMenu() {
+        var navLinks = document.getElementById('navLinks');
+        if (window.innerWidth <= 768) {
+          navLinks.classList.remove('open');
+        }
+      }
+    </script>
     </button>
   </div>
 </nav>
@@ -427,6 +436,7 @@
   <div class="container">
     <div class="about-grid">
       <div class="about-visual fade-up">
+        <img src="images/john-waypoint-automation.png" alt="John - Waypoint Automation" style="max-width:180px; border-radius:16px; margin-bottom:1.5rem; box-shadow:0 4px 24px rgba(0,0,0,0.08);">
         <div class="about-logo-large">
           <svg width="240" height="64" viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
             <g transform="translate(36, 40)">
